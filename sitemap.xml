@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This site is a single-page app, so search engines only need the one root URL —
+  the #project-0, #privacy, etc. hash routes aren't separately crawlable pages.
+  Update <loc> below to your real deployed URL, and bump <lastmod> whenever you
+  make meaningful content changes.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://prathameshamone.github.io/Portfolio/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

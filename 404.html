@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Page Not Found — Prathamesh Amone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#FFFFFF; --fg:#0A0A0A; --green:#FFD93D; --green-dim:#E0AE00; --border:4px;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;}
+    html,body{height:100%;}
+    body{
+      background:var(--bg); color:var(--fg); font-family:'Poppins',sans-serif;
+      display:flex; align-items:center; justify-content:center; text-align:center;
+      padding:24px; position:relative; overflow:hidden;
+    }
+    .dots-bg{
+      position:absolute; inset:0; pointer-events:none;
+      background-image:radial-gradient(var(--fg) 1.5px, transparent 1.5px);
+      background-size:26px 26px; opacity:.06;
+    }
+    .wrap{ position:relative; z-index:1; max-width:560px; }
+    .tag{
+      display:inline-block; font-weight:700; font-size:.72rem; letter-spacing:.06em;
+      text-transform:uppercase; padding:6px 14px; border:3px solid var(--fg);
+      background:var(--green); color:#0A0A0A; margin-bottom:26px;
+    }
+    h1{
+      font-size:clamp(4rem,14vw,7rem); font-weight:900; line-height:.9;
+      text-transform:uppercase; letter-spacing:-.02em; margin-bottom:14px;
+    }
+    p{ font-size:1.05rem; opacity:.75; margin-bottom:34px; line-height:1.6; }
+    .btn{
+      display:inline-flex; align-items:center; gap:10px; padding:16px 30px;
+      font-weight:700; font-size:.95rem; text-transform:uppercase; letter-spacing:.03em;
+      border:3px solid var(--fg); background:var(--fg); color:var(--bg);
+      text-decoration:none; transition:transform .15s ease, box-shadow .15s ease;
+    }
+    .btn:hover{ transform:translate(1px,1px); box-shadow:3px 3px 0 var(--fg); }
+    .btn:active{ transform:translate(4px,4px); box-shadow:0 0 0 var(--fg); }
+  </style>
+</head>
+<body>
+  <div class="dots-bg"></div>
+  <div class="wrap">
+    <span class="tag">✨ Lost, are we?</span>
+    <h1>404</h1>
+    <p>The page you're looking for doesn't exist — it may have moved, or the link might be broken.</p>
+    <!-- TODO: if your repo/site name isn't "Portfolio", update this path to match -->
+    <a class="btn" href="/Portfolio/">← Back to Portfolio</a>
+  </div>
+</body>
+</html>

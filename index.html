@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- TODO: replace with your live deployed URL once you've hosted this (GitHub Pages, Vercel, etc.) -->
+  <link rel="canonical" href="https://prathameshamone.github.io/Portfolio/">
+
+  <meta name="description" content="Prathamesh Amone — Full Stack Developer building secure mobile apps and backend systems. Diploma in Computer Science, Government Polytechnic Solapur. Explore projects in React Native, FastAPI, Firebase, and authentication engineering.">
+  <meta name="keywords" content="Prathamesh Amone, Full Stack Developer, React Native Developer, FastAPI, Authentication Specialist, Mobile App Developer, Solapur, Government Polytechnic Solapur, Portfolio">
+  <meta name="author" content="Prathamesh Amone">
+  <meta name="robots" content="index, follow">
+  <title>Prathamesh Amone — Full Stack Developer</title>
+
+  <!-- Open Graph / social share preview (WhatsApp, LinkedIn, Facebook, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prathamesh Amone — Full Stack Developer">
+  <meta property="og:description" content="Full Stack Developer building secure mobile apps and backend systems — React Native, FastAPI, Firebase, and authentication engineering.">
+  <!-- TODO: replace with your live deployed URL to match the canonical link above -->
+  <meta property="og:url" content="https://prathameshamone.github.io/Portfolio/">
+  <meta property="og:image" content="https://prathameshamone.github.io/Portfolio/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Prathamesh Amone — Portfolio">
+
+  <!-- Twitter/X card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prathamesh Amone — Full Stack Developer">
+  <meta name="twitter:description" content="Full Stack Developer building secure mobile apps and backend systems — React Native, FastAPI, Firebase, and authentication engineering.">
+  <meta name="twitter:image" content="https://prathameshamone.github.io/Portfolio/assets/og-image.png">
+
+  <meta name="theme-color" content="#0A0A0A">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- ---------- Google Analytics (optional) ----------
+       1. Create a GA4 property at https://analytics.google.com and grab your Measurement ID (looks like G-XXXXXXXXXX)
+       2. Uncomment the two <script> tags below and replace G-XXXXXXXXXX with your ID
+       3. Do this once the site is actually deployed/live — no need for it while developing locally
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- Runtime dependencies -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Portfolio application — loaded as separate Babel scripts in dependency order
+       (data/icons/hooks/animations first, then section components, then the App root) -->
+  <script type="text/babel" src="js/data.js"></script>
+  <script type="text/babel" src="js/icons.js"></script>
+  <script type="text/babel" src="js/hooks.js"></script>
+  <script type="text/babel" src="js/animations.js"></script>
+
+  <script type="text/babel" src="js/components/ThemeToggle.js"></script>
+  <script type="text/babel" src="js/components/Nav.js"></script>
+  <script type="text/babel" src="js/components/Home.js"></script>
+  <script type="text/babel" src="js/components/About.js"></script>
+  <script type="text/babel" src="js/components/Education.js"></script>
+  <script type="text/babel" src="js/components/Skills.js"></script>
+  <script type="text/babel" src="js/components/Experience.js"></script>
+  <script type="text/babel" src="js/components/Projects.js"></script>
+  <script type="text/babel" src="js/components/ProjectDetail.js"></script>
+  <script type="text/babel" src="js/components/Achievements.js"></script>
+  <script type="text/babel" src="js/components/Contact.js"></script>
+  <script type="text/babel" src="js/components/Footer.js"></script>
+  <script type="text/babel" src="js/components/PrivacyPolicy.js"></script>
+
+  <script type="text/babel" src="js/App.js"></script>
+</body>
+</html>
