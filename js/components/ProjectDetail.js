@@ -37,7 +37,7 @@ function ProjectDetail({ project, index }) {
           </div>
         ) : (
           <Reveal base="reveal-lg" className="pd-gallery-empty">
-            No images yet — add paths to <code>PROJECTS[{index}].images</code> in <code>js/data.js</code> to show a gallery here.
+            No images yet
           </Reveal>
         )}
 
