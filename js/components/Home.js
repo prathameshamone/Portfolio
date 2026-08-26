@@ -8,7 +8,7 @@ function Home() {
           <h1 className="home-name">
             <RevealWords text="Prathamesh" /><br />
             <RevealWords text="Amone" startDelay={90} />
-            <span className="highlight">Full Stack Developer ME aahe </span>
+            <span className="highlight">Full Stack Developer</span>
           </h1>
           <p className="home-bio">I build secure, thoughtful software — through innovation. Currently a diploma student who ships real products, not just class assignments.</p>
           <div className="home-cta">
