@@ -1,12 +1,12 @@
 /* ============ EDIT YOUR DATA HERE ============ */
 
-const PROFILE_IMAGE = "assets/profile.jpg";
+const PROFILE_IMAGE = "assets/profile.png";
 const CONTACT_IMAGE = "assets/contact.png";
 
 const SOCIAL_LINKS = [
-  { label: "GitHub", href: "#", icon: "github" },       // <- put your GitHub profile URL here
-  { label: "LinkedIn", href: "#", icon: "linkedin" },    // <- put your LinkedIn profile URL here
-  { label: "Instagram", href: "#", icon: "instagram" },  // <- put your Instagram profile URL here
+  { label: "GitHub", href: "https://github.com/prathameshamone", icon: "github" },       
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/prathamesh-amone-835606413/", icon: "linkedin" },    
+  { label: "Instagram", href: "https://www.instagram.com/prathameshh.inc/", icon: "instagram" },  
   { label: "Email", href: "mailto:prathameshamone07@gmail.com", icon: "mail" },
 ];
 
@@ -114,7 +114,7 @@ const EXPERIENCE = [
 */
 const ACHIEVEMENTS = [
   { title: "Debate Runner Up", meta: "2024", desc: "I was a debate runner up at Technotsava 2024", icon: "" },
-  { title: "Many more to come", meta: "", desc: "", icon: "" },
+  { title: "Many more to go", meta: "", desc: "", icon: "" },
 ];
 
 /* Add a new project by copying this block into the PROJECTS array.
@@ -134,7 +134,7 @@ const PROJECTS = [
     longDesc: "Mobile task management app built during my Central Railway internship. Owned the full authentication system end-to-end: OTP verification via Brevo, JWT-based sessions, secure token storage, and hardening the backend against BOLA and role-injection vulnerabilities. Edit this paragraph with more detail — the problem it solved, your process, and any challenges you tackled.",
     stack: ["FastAPI", "Supabase", "PyJWT", "React Native"],
     images: [],
-    repo: "#", // <- put this project's GitHub repo URL here
+    repo: "https://github.com/shlokpunjal/Kaarya-Siddhi", 
   },
   {
     title: "Universal Agencies",
@@ -144,18 +144,20 @@ const PROJECTS = [
     longDesc: "Full website for my own brand marketing business, with Firebase Firestore integration and separate admin and client dashboards, hosted on GitHub Pages. Edit this paragraph with more detail about the build.",
     stack: ["Firebase", "Firestore", "GitHub Pages"],
     images: [],
-    repo: "#", // <- put this project's GitHub repo URL here
+    repo: "https://github.com/universalagencies0103/universalagencies0103.github.io",
   },
-  {
-    title: "Shop Stock Management App",
-    type: "Client Project",
-    role: "Developer",
-    desc: "Stock and service management app for a friend's electrical goods and repair shop, structured around the auth and backend patterns from Kaarya Siddhi.",
-    longDesc: "Stock and service management app for a friend's electrical goods and repair shop, structured around the auth and backend patterns from Kaarya Siddhi. Edit this paragraph with more detail about the build.",
-    stack: ["FastAPI", "Supabase", "React Native"],
-    images: [],
-    repo: "#", // <- put this project's GitHub repo URL here
-  },
+
+  // {
+  //   title: "Shop Stock Management App",
+  //   type: "Client Project",
+  //   role: "Developer",
+  //   desc: "Stock and service management app for a friend's electrical goods and repair shop, structured around the auth and backend patterns from Kaarya Siddhi.",
+  //   longDesc: "Stock and service management app for a friend's electrical goods and repair shop, structured around the auth and backend patterns from Kaarya Siddhi. Edit this paragraph with more detail about the build.",
+  //   stack: ["FastAPI", "Supabase", "React Native"],
+  //   images: [],
+  //   repo: "#",
+  // },
+
   {
     title: "Weather App",
     type: "Personal Project",
@@ -164,7 +166,7 @@ const PROJECTS = [
     longDesc: "Native weather application built while learning React Native fundamentals, navigation, component structure, and live API data handling. Edit this paragraph with more detail about the build.",
     stack: ["React Native", "Expo"],
     images: [],
-    repo: "#", // <- put this project's GitHub repo URL here
+    repo: "https://github.com/prathameshamone/WeatherWell",
   },
   {
     title: "Truth & Dare Game",
@@ -174,7 +176,7 @@ const PROJECTS = [
     longDesc: "Command-line Truth and Dare game written in C, an early project exploring control flow, randomization, and core programming logic. Edit this paragraph with more detail about the build.",
     stack: ["C"],
     images: [],
-    repo: "#", // <- put this project's GitHub repo URL here
+    repo: "#",
   },
 ];
 
